@@ -1,0 +1,5 @@
+Options All -Indexes
+<FilesMatch ".*\.(php|htm|html|phtml|fLA|txt|alfa|py|phpjpeg|php5)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
